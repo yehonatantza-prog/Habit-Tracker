@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>צור קשר - נקסוס דיגיטל</title>
+  <link rel="stylesheet" href="a.css">
+  <link rel="stylesheet" href="pages.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">
+        <span class="logo-icon">✨</span>
+        <span class="logo-text">NEXUS</span>
+      </div>
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html" class="nav-link">בית</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">אודות</a></div>
+        <div class="nav-item"><a href="services.html" class="nav-link">שירותים</a></div>
+        <div class="nav-item"><a href="portfolio.html" class="nav-link">תיק עבודות</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">צור קשר</a></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="hero hero-alt">
+      <div class="hero-content">
+        <h1 class="hero-title">בואו נדבר על האתר הבא שלכם</h1>
+        <p class="hero-subtitle">אני אשמח לבנות עבורכם אתר שמייצג את העסק שלכם בצורה הטובה ביותר.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="section-title">
+        <h2>נשמח לשמוע מכם</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <label>שם מלא</label>
+          <input type="text" name="name" placeholder="השם שלך" required>
+          <label>אימייל</label>
+          <input type="email" name="email" placeholder="example@mail.com" required>
+          <label>טלפון</label>
+          <input type="tel" name="phone" placeholder="05X-XXXXXXX" required>
+          <label>הודעה</label>
+          <textarea name="message" rows="6" placeholder="ספרו לי על הפרויקט" required></textarea>
+          <button class="hero-button" type="submit">שלחו בקשה</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+        <div class="contact-info-card">
+          <h3>פרטי התקשרות</h3>
+          <p>נייד: <strong>054-123-4567</strong></p>
+          <p>אימייל: <strong>contact@nexusweb.co.il</strong></p>
+          <p>זמינות: ימים א'-ה' 09:00-18:00</p>
+          <div class="contact-cta">
+            <p>נשמח לספר על חבילות התכנון והנסיון שלנו בעסקים קטנים.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>נקסוס דיגיטל</h4>
+        <p>הדרך הקלה והמהירה להשקת האתר הבא של העסק שלך.</p>
+      </div>
+      <div class="footer-section">
+        <h4>קישורים מהירים</h4>
+        <ul>
+          <li><a href="index.html">בית</a></li>
+          <li><a href="services.html">שירותים</a></li>
+          <li><a href="about.html">אודות</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="currentYear"></span> NEXUS - בניית אתרים לעסקים קטנים.</p>
+    </div>
+  </footer>
+</body>
+</html>
